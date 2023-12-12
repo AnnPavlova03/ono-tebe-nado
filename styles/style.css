@@ -1,1 +1,34 @@
 /* место для вашего кода */
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.header-grid{
+    display: grid;
+    width: 1052px;
+    grid-template-columns: 1fr 148px 1fr;
+    padding: 92px 24px;
+    justify-content:space-between;
+    align-content:center;
+}
+.reference{
+    grid-column: 1;
+    align-self: center;
+    justify-self: start;
+}
+.logo{
+  grid-column: 2;
+  width: 100%;
+ 
+}
+.contacts{
+    grid-column: 3;
+    align-self: center;
+    justify-self: end;
+   
+    
+}
+    
