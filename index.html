@@ -10,32 +10,76 @@
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-    <header class="header-grid">
+    <header class="header">
       <nav class="reference">
         <ul>
-          <il>
+          <il class="menu">
             <a>главная</a>
-            <a>просмотреть лоты</a>
-            <a>об аукционе</a>
+            <a class="underline list">просмотреть лоты</a>
+            <a class="underline list">об аукционе</a>
           </il>
         </ul>
       </nav>
-      <img class="logo"  src="./images/logo-black.svg">
-      <ul class="contacts">
-        <il>
-          <p>+9 999 555 5555</p>
-          <a>info@sobaka.ge</a>
-          <p>наб. Принсенграхт 263-265, Амстердам</p>
+      <img class="logo"  src="./images/logo-black.svg" alt="Логотип">
+      <div class="contacts">
+        <ul>
+          <il class="address">
+            <a class="underline" href="tel:+70000000">+9 999 555 5555</a>
+            <a class="underline" href="mailto:mail@example.com">info@sobaka.ge</a>
+            <address>наб. Принсенграхт 263-265, </address>
+            <address>Амстердам</address>
+          </il>
+        </ul>
+      </div>
+    </header>
+    <section class="cover">
+      <img src=".//images/cover.jpg" alt="цветы">
+      <div class="overlay">
+      </div>
+      <div>
+        <h1 class="cover__title"> 
+          <span class="aligned-text aligned-text_left ">О<span class="no-letter-spacing">н<span>о</span> </span></span>
+          <span class="aligned-text aligned-text_center ">те<span class="no-letter-spacing">б<span >е</span> </span></span>
+          <span class=" no-letter-spacing aligned-text aligned-text_right">н<span class="aligned-text" >ад<span class="letter-spacing-extended">о</span></span> </span>
+        </h1>
+      </div>
+      <div class="cover__description">
+        <h2 class="cover__description-text">Аукцион    вещей,    в    которые    никто    не     верил </h2>
+        <button class="bet-button text-button">Сделать ставку</button>
+      </div>
+    </section>
+    <section>
+    <section>
+    </section>  
+    </section> 
+
+    <footer class="footer">
+      <div >
+        <ul>
+          <il class="address">
+            <a class="underline" href="tel:+70000000">+9 999 555 5555</a>
+            <a class="underline" href="mailto:mail@example.com">info@sobaka.ge</a>
+            <address>наб. Принсенграхт 263-265, </address>
+            <address>Амстердам</address>
+          </il>
+        </ul>
+      </div>
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <il >
+            <a>главная</a>
+            <a class="underline list">просмотреть лоты</a>
+            <a class="underline list">об аукционе</a>
+          </il>
+        </ul>
+      </nav>
+      <ul class="footer__social-list">
+        <il class="footer__social-list-item">
+          <img class="footer__social-icon"  src="./images/yt.svg" alt="Логотип">
+          <img class="footer__social-icon"  src="./images/vk.svg" alt="Логотип">
+          <img class="footer__social-icon"  src="./images/pinterest.svg" alt="Логотип">
         </il>
       </ul>
-    </header>
-    <section>
-    <section>
-    <section>
-    <section>
-    </section>  
-    </section>  
-    <footer>
     </footer>
   </body>
 </html>
